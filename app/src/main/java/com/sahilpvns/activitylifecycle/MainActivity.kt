@@ -7,11 +7,11 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
-    private val TAG = "TAG"
+    private val tag = "TAG"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.e(TAG, "MainActivity: onCreate")
+        Log.e(tag, "MainActivity: onCreate")
         setContentView(R.layout.activity_main)
 
         val button = findViewById<Button>(R.id.button)
@@ -22,31 +22,31 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.e(TAG, "Activity A: onStart")
+        Log.e(tag, "Activity A: onStart")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.e(TAG, "Activity A: onResume")
+        Log.e(tag, "Activity A: onResume")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.e(TAG, "Activity A: onPause")
+        Log.e(tag, "Activity A: onPause")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.e(TAG, "Activity A: onStop")
+        Log.e(tag, "Activity A: onStop")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.e(TAG, "Activity A: onRestart")
+        Log.e(tag, "Activity A: onRestart")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.e(TAG, "Activity A: onDestroy")
+        Log.e(tag, "Activity A: onDestroy")
     }
 }

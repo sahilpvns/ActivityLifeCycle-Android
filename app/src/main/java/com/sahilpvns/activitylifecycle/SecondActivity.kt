@@ -5,41 +5,41 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
 class SecondActivity : AppCompatActivity() {
-    private val TAG = "TAG"
+    private val tag = "TAG"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.e(TAG, "Activity B: onCreate")
+        Log.e(tag, "Activity B: onCreate")
         setContentView(R.layout.activity_second)
     }
 
     override fun onStart() {
         super.onStart()
-        Log.e(TAG, "Activity B: onStart")
+        Log.e(tag, "Activity B: onStart")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.e(TAG, "Activity B: onResume")
+        Log.e(tag, "Activity B: onResume")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.e(TAG, "Activity B: onPause")
+        Log.e(tag, "Activity B: onPause")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.e(TAG, "Activity B: onStop")
+        Log.e(tag, "Activity B: onStop")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.e(TAG, "Activity B: onRestart")
+        Log.e(tag, "Activity B: onRestart")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.e(TAG, "Activity B: onDestroy")
+        Log.e(tag, "Activity B: onDestroy")
     }
 }
