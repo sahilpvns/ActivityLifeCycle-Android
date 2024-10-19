@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.e(tag, "Activity A: onCreate")
+        Log.d(tag, "Activity A: onCreate")
         setContentView(R.layout.activity_main)
 
         val button = findViewById<Button>(R.id.button)
@@ -22,31 +22,31 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.e(tag, "Activity A: onStart")
+        Log.d(tag, "Activity A: onStart")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.e(tag, "Activity A: onResume")
+        Log.d(tag, "Activity A: onResume")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.e(tag, "Activity A: onPause")
+        Log.d(tag, "Activity A: onPause")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.e(tag, "Activity A: onStop")
+        Log.d(tag, "Activity A: onStop")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.e(tag, "Activity A: onRestart")
+        Log.d(tag, "Activity A: onRestart")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.e(tag, "Activity A: onDestroy")
+        Log.d(tag, "Activity A: onDestroy")
     }
 }

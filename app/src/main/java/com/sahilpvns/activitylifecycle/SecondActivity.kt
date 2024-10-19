@@ -9,37 +9,37 @@ class SecondActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.e(tag, "Activity B: onCreate")
+        Log.d(tag, "Activity B: onCreate")
         setContentView(R.layout.activity_second)
     }
 
     override fun onStart() {
         super.onStart()
-        Log.e(tag, "Activity B: onStart")
+        Log.d(tag, "Activity B: onStart")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.e(tag, "Activity B: onResume")
+        Log.d(tag, "Activity B: onResume")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.e(tag, "Activity B: onPause")
+        Log.d(tag, "Activity B: onPause")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.e(tag, "Activity B: onStop")
+        Log.d(tag, "Activity B: onStop")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.e(tag, "Activity B: onRestart")
+        Log.d(tag, "Activity B: onRestart")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.e(tag, "Activity B: onDestroy")
+        Log.d(tag, "Activity B: onDestroy")
     }
 }
