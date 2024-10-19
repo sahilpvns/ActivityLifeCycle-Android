@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.e(tag, "MainActivity: onCreate")
+        Log.e(tag, "Activity A: onCreate")
         setContentView(R.layout.activity_main)
 
         val button = findViewById<Button>(R.id.button)
